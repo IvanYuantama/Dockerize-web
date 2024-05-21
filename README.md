@@ -1,8 +1,8 @@
 # Game Review
 
 Dockerize-web
-Author-web : ryan
-Dockerize : ivan
+- Author-web : ryan
+- Dockerize : ivan
 
 Demo Website:
 
