@@ -1,0 +1,45 @@
+
+
+# services:
+#   #MongoDB
+#   mongo_db:
+#     ports:
+#       - 2717:2717
+#     image: mongo:latest
+
+#   app:
+#     build: ./Backend_MONGO/.
+#     ports:
+#       - 4000:4000
+#     restart: always
+#     depends_on:
+#       - mongo_db
+
+services:
+  # MongoDB services
+  mongo_db:
+    container_name: mymongodb
+    ports:
+      - 2717:2717
+    image: mongo:latest
+    restart: always
+    volumes:
+      - ~/workspace/dataDB:/data/db
+
+  # Node API services
+  api:
+    build: ./Backend_MONGO
+    container_name: myrestapi
+    ports:
+      - 4000:4000
+    restart: always
+    depends_on:
+      - mongo_db
+
+  # # Frontend
+  # react-ui:
+  #   build: ./Frontend
+  #   container_name: myfrontend
+  #   ports:
+  #     - 8000:8000
+  #   restart: always
