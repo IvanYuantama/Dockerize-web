@@ -1,6 +1,6 @@
 # Game Review
 
-Dockerize-web
+Dockerize-web with mongodb and nodejs. Also react for frontend
 - Author-web : ryan
 - Dockerize : ivan
 
