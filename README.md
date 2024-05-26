@@ -18,3 +18,6 @@ Main Page:
 
 Create Review Page:
 ![image](https://github.com/ryansatj/Game-Review/assets/134668057/ad846cb4-0f8f-4a60-b819-c6bc06860096)
+
+Running docker:
+![image](https://github.com/IvanYuantama/Dockerize-web/assets/123520791/457eb6de-43a5-468f-b136-cd33d393cc53)
