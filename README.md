@@ -3,7 +3,7 @@ CRUD app for review games. You can create review, get all review, edit review, a
 
 Dockerize-web with mongodb ,nodejs, and reactjs
 - Backend and Dockerize : Ryan Safa Tjendana, Ivan Yuantama Pradipta
-- Frontend and PPT : Daffa Rizkyandri, Surya Dharmasaputra
+- Frontend and PPT : Muhammad Daffa Rizkyandri, Surya Dharmasaputra
 
 Demo Website:
 
